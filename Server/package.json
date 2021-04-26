@@ -1,0 +1,47 @@
+{
+  "name": "Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:create:test": "NODE_ENV=test sequelize db:create",
+    "db:migrate:test": "NODE_ENV=test sequelize db:migrate",
+    "db:seed:all:test": "NODE_ENV=test sequelize db:seed:all",
+    "db:create:dev": "NODE_ENV=development sequelize db:create",
+    "db:migrate:dev": "NODE_ENV=development sequelize db:migrate",
+    "db:seed:all:dev": "NODE_ENV=development sequelize db:seed:all",
+    "test": "NODE_ENV=test npx jest --detectOpenHandles --coverage",
+    "dev": "NODE_ENV=development nodemon bin/http",
+    "production": "NODE_ENV=production nodemon bin/http",
+    "start": "node bin/http"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Final-Project-RUKUN/Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Final-Project-RUKUN/Server/issues"
+  },
+  "homepage": "https://github.com/Final-Project-RUKUN/Server#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["routes/midtransRoute.js"]
+  }
+}

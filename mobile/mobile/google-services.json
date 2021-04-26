@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "306946826839",
+    "firebase_url": "https://kanban-mufadho-default-rtdb.firebaseio.com",
+    "project_id": "kanban-mufadho",
+    "storage_bucket": "kanban-mufadho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306946826839:android:564d10596e52cc01e1f912",
+        "android_client_info": {
+          "package_name": "com.rukun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306946826839-b3ag0i4s3p8vq3ih0ou1biipdnq49sqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtJdxY0YL8PGAP7caWY3HdFYPfTwXmbtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306946826839-b3ag0i4s3p8vq3ih0ou1biipdnq49sqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

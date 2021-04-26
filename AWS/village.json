@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+    "name":"Alas",
+    "invitation":"alas123",
+    "location":"Indonesia",
+    "balance":"1000000000",
+    "UserId":"1"
+  },
+  {
+    "id":2,
+    "name":"Fakfak",
+    "invitation":"fakfak123",
+    "location":"Indonesia",
+    "balance":"1000000000",
+    "UserId":"1"
+  },
+  {
+    "id":3,
+    "name":"Waerebo",
+    "invitation":"pakbowo",
+    "location":"Indonesia",
+    "balance":"1000000000",
+    "UserId":"1"
+  }
+]

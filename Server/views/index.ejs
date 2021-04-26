@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="pay-button" class="btn btn-primary input-group-btn">Proceed to Payment</button>
+  
+    <!-- import the snap.js provided by Midtrans -->
+    <script type="text/javascript" src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="SET_YOUR_CLIENT_KEY_HERE"></script>
+
+    <script type="text/javascript">
+      /* For example trigger on button clicked, or any time you need */
+      document.addEventListener('DOMContentLoaded', function() {
+        /* in this case, the snap token is retrieved from the Input Field */
+        snap.pay("<%= snapToken %>");
+      });
+    </script>
+</body>
+</html>

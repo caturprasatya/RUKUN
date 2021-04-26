@@ -1,0 +1,18 @@
+{
+  "name": "rukun",
+  "displayName": "rukun",
+  "expo": {
+    "name": "rukun",
+    "slug": "rukun",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "io.expo.client"
+    }
+  },
+  "android": {
+    "googleServicesFile": "./google-services.json"
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "name":"kris",
+    "username":"krisna",
+    "password":"1234567",
+    "role":"member",
+    "VillageId":100
+  },
+  {
+    "name":"budi",
+    "username":"budiman",
+    "password":"1234567",
+    "role":"member",
+    "VillageId":100
+  },
+  {
+    "name":"bowo",
+    "username":"pakbowo",
+    "password":"1234567",
+    "role":"admin",
+    "VillageId":100
+  }
+]
